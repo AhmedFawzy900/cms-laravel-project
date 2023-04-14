@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="\public\photos\hero-img.png" class="img-fluid" alt="">
+          <img src="\public\photos\hero-img.png" class="img-fluid mt-5" alt="">
         </div>
       </div>
     </div>

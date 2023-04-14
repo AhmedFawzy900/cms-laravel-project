@@ -17,7 +17,7 @@
      
                         <div class="col-md-8 col-sm-8">
                          <div class="card-title">
-                             <a href="http://laravelsection.local/public/posts/{{$post->id}}"> <h2>{{$post->title}}</h2></a>
+                             <a href="http://laravelsection.local/public/posts/{{$post->id}}"> <h2 class="text-dark text-bold pt-2">{{$post->title}}</h2></a>
                               <small>Created at : {{$post->created_at}} by: {{ $post->user ? $post->user->name : '' }} </small>
                           </div>
                         </div>
