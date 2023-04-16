@@ -73,7 +73,7 @@
                     @endif
                 @else
                 <div class="dropdown">
-                  <button class="btn btn-outline-light dropdown-toggle" type="button" data-toggle="dropdown">{{ Auth::user()->name }}
+                  <button class="btn dropdown-toggle text-light p-0" type="button" data-toggle="dropdown">{{ Auth::user()->name }}
                   <span class="caret"></span></button>
                   <ul class="dropdown-menu">
                       <a class="dropdown-item" href="http://laravelsection.local/public/home">Dashboard</a>
