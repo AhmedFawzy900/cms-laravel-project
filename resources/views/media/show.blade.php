@@ -4,6 +4,7 @@
 
 <div class="container media py-3">
     <h1>Media preview</h1>
+ <div>
     <div class="buttons d-flex justify-content-between align-items-end">
 
         <a href="http://laravelsection.local/public/media/" class="btn btn-outline-secondary">Go back</a>
@@ -18,9 +19,10 @@
                         {{Form::submit('Delete',['class'=>'btn btn-outline-danger mt-3 p-2'])}}
                     </div>
                 {!! Form::close() !!}
+                @endif
+        @endif
     </div>
-    @endif
-@endif
+ </div>
 <hr>
 {{-- show image --}}
 <div class="row">
@@ -30,7 +32,7 @@
  
 </div>
 </div>
-<div class="d-flex justify-content-end p-4">
+<div class="d-flex justify-content-start container mt-1">
 <small >Created at : {{$media->created_at}} by: {{ $media->user ? $media->user->name : '' }} </small>
 </div>
 @endsection
